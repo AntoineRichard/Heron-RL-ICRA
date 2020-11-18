@@ -20,3 +20,16 @@ The simulation runs on Gazebo 9.0 and requires the following packages:
   
 ## Models
 We are uploading them
+
+## How to run:
+If you have installed all the requirement ontop, you can start training and testing the models.
+
+### Training:
+To start the training please execute the following commands (we use byobu to run the training on distant servers):
+  - In a terminal start a ros core: `roscore`
+  - In another terminal start the simulation and the bridge: `roslaunch rl-server launch_train.launch`
+  - In another terminal edit the agent: `rosed tensorflow2kingfisher X2Y_dreamer.py` and change the path where the episodes are saved (TODO make an arg)
+  - Start the agent: `rosrun tensorflow2kingfisher X2Y_dreamer.py`
+  - In another terminal start the training: `python3 X2Y_dreamer.py --logdir /path/matching/the/one/in/tf2kf` (this can be found in the dreamer git repository not the tensorflow2kingfisher package)
+
+> Change `X` and `Y` to cmap or lzr.
