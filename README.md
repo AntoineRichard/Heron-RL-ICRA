@@ -16,11 +16,16 @@ The simulation runs on Gazebo 9.0 and requires the following packages:
   - https://github.com/kf/kingfisher this packages are leagacy packages that we use for compatibility
   - https://github.com/AntoineRichard/heron_simulator/
   - https://github.com/heron/heron_controller
-  - You will need additionnal ros-packages but they are standard packages that can be acquired through APT
   
 To install some of the required package use: `rosdep install --from-paths src --ignore-src -r -y` it should be sufficient to compile all the packages.
 However, to run the simulation you will need the following packages:
+  - sudo apt install ros-melodic-imu-filter-madgwick
 
+Python packages:
+  - bottle
+  - tensorflow-gpu==2.1 or higher
+  - tensorflow-probability==0.9.0 or higher
+  - opencv-python
   
 ## Models
 We are uploading them
