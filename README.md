@@ -33,6 +33,7 @@ Python packages:
   - gym
   - pathlib
   - mock
+  - dm_control
   
 ## Models
 We are uploading them
