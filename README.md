@@ -10,7 +10,7 @@ This is the code required to train DREAMER
 https://github.com/AntoineRichard/dreamer
 
 ## Simulation
-The simulation runs on Gazebo 9.0 and requires the following packages:
+The simulation runs on ros-melodic with Gazebo 9.0. It requires the following packages:
   - https://github.com/AntoineRichard/uuv_simulator modified version of the uuv-simulator (provides bouyancy and a couple worlds)
   - https://github.com/AntoineRichard/heron modified Heron packages
   - https://github.com/kf/kingfisher this packages are leagacy packages that we use for compatibility
@@ -28,13 +28,15 @@ However, to run the simulation you will need the following packages:
 
 Python packages:
   - bottle
-  - tensorflow-gpu==2.1 or higher
-  - tensorflow-probability==0.9.0 or higher
+  - tensorflow-gpu==2.1 (or higher)
+  - tensorflow-probability==0.9.0 (or higher)
   - opencv-python
   - gym
   - pathlib
   - mock
   - dm_control
+
+> We were able to run this code on melodic with ampere GPUs, but you will need to compile tensorflow and tensorbaord 2.3 manually. If need be we can share our wheels.
   
 ## Models
 We are uploading them
