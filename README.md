@@ -19,7 +19,11 @@ The simulation runs on Gazebo 9.0 and requires the following packages:
   
 To install some of the required package use: `rosdep install --from-paths src --ignore-src -r -y` it should be sufficient to compile all the packages.
 However, to run the simulation you will need the following packages:
-  - sudo apt install ros-melodic-imu-filter-madgwick
+  - ros-melodic-imu-filter-madgwick
+  - ros-melodic-hector-gazebo-worlds
+  - ros-melodic-hector-sensors-description
+  - ros-melodic-hector-sensors-gazebo
+  - ros-melodic-hector-gazebo
 
 Python packages:
   - bottle
