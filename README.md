@@ -32,6 +32,7 @@ Python packages:
   - opencv-python
   - gym
   - pathlib
+  - mock
   
 ## Models
 We are uploading them
