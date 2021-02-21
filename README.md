@@ -30,6 +30,7 @@ Python packages:
   - tensorflow-gpu==2.1 or higher
   - tensorflow-probability==0.9.0 or higher
   - opencv-python
+  - gym
   
 ## Models
 We are uploading them
