@@ -14,7 +14,7 @@ The simulation runs on Gazebo 9.0 and requires the following packages:
   - https://github.com/AntoineRichard/uuv_simulator modified version of the uuv-simulator (provides bouyancy and a couple worlds)
   - https://github.com/AntoineRichard/heron modified Heron packages
   - https://github.com/kf/kingfisher this packages are leagacy packages that we use for compatibility
-  - https://github.com/heron/heron_simulator
+  - https://github.com/AntoineRichard/heron_simulator/
   - https://github.com/heron/heron_controller (not necessary but nice to have around)
   - You will need additionnal ros-packages but they are standard packages that can be acquired through APT
   
