@@ -18,6 +18,10 @@ The simulation runs on Gazebo 9.0 and requires the following packages:
   - https://github.com/heron/heron_controller (not necessary but nice to have around)
   - You will need additionnal ros-packages but they are standard packages that can be acquired through APT
   
+To install some of the required package use: `rosdep install --from-paths src --ignore-src -r -y` it should be sufficient to compile all the packages.
+However, to run the simulation you will need the following packages:
+
+  
 ## Models
 We are uploading them
 
