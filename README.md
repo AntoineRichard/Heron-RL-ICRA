@@ -24,6 +24,7 @@ However, to run the simulation you will need the following packages:
   - ros-melodic-hector-sensors-description
   - ros-melodic-hector-sensors-gazebo
   - ros-melodic-hector-gazebo
+  - ffmpeg
 
 Python packages:
   - bottle
