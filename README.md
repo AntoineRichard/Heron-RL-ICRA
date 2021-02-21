@@ -31,6 +31,7 @@ Python packages:
   - tensorflow-probability==0.9.0 or higher
   - opencv-python
   - gym
+  - pathlib
   
 ## Models
 We are uploading them
